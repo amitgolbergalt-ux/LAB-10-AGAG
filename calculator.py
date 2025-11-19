@@ -15,19 +15,19 @@ def hypotenuse(a,b):
     return math.sqrt(a**2 + b**2)
 def add(a, b):
     return a+b
-def subtract(a,b):
+def sub(a,b):
     return a-b
-def multiply(a,b):
+def mul(a,b):
     return a*b
-def divide(a,b):
+def div(a, b):
     if a == 0:
         raise ZeroDivisionError
     return a/b
-def logarithm(a,b):
+def log(a,b):
     if b <= 0:
         raise ValueError
     return math.log(b,a)
-def exponent(a,b):
+def exp(a,b):
     return a**b
 
 
