@@ -35,7 +35,7 @@ class TestCalculator(unittest.TestCase):
     # ##########################
     def test_divide(self, a, b):
         try:
-            assert(divide(a,b) == a / b)
+            assert(div(a,b) == a / b)
             return True
         except AssertionError:
             return False
@@ -99,7 +99,7 @@ class TestCalculator(unittest.TestCase):
     #     fill in code
     def test_sqrt(self, a):
         try:
-            assert(sqrt(a) == math.sqrt(a))
+            assert(square_root(a) == math.sqrt(a))
             return True
         except ValueError:
             return True
