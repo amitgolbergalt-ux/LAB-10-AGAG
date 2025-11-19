@@ -13,7 +13,7 @@ def subtract(a,b):
     return a-b
 def multiply(a,b):
     return a*b
-def divide(a,b):
+def divide(a, b):
     if a == 0:
         raise ZeroDivisionError
     return a/b
